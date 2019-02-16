@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "303376561810",
+    "firebase_url": "https://charged-camera-848.firebaseio.com",
+    "project_id": "charged-camera-848",
+    "storage_bucket": "charged-camera-848.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:303376561810:android:9a2ac6e199569c09",
+        "android_client_info": {
+          "package_name": "com.example.kahermans.phonebookdemo"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "303376561810-tc4a1vvl4pr69i5jca4t3cvrvks1q6v1.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.kahermans.phonebookdemo",
+            "certificate_hash": "10d88ed4c37c6ebe8732cb988b40f42ed3365a0f"
+          }
+        },
+        {
+          "client_id": "303376561810-sq38eai39gems9ub3u5rblu87f2mi5a7.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAFJ30pot5TuAMwzGMyEw8L7rPE99sAWKI"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "303376561810-sq38eai39gems9ub3u5rblu87f2mi5a7.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

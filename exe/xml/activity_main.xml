@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/buttonAdd"
+        android:layout_width="156dp"
+        android:layout_height="47dp"
+        android:layout_marginTop="108dp"
+        android:onClick="addSentence"
+        android:text="Write"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_chainStyle="spread" />
+
+    <Button
+        android:id="@+id/buttonSearch"
+        android:layout_width="156dp"
+        android:layout_height="70dp"
+        android:layout_marginTop="16dp"
+        android:onClick="searchSentence"
+        android:text="Search Sentences"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/buttonView" />
+
+    <Button
+        android:id="@+id/buttonView"
+        android:layout_width="156dp"
+        android:layout_height="44dp"
+        android:layout_marginTop="16dp"
+        android:onClick="viewSentence"
+        android:text="View Story"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/buttonAdd" />
+
+    <Button
+        android:id="@+id/buttonDelete"
+        android:layout_width="156dp"
+        android:layout_height="70dp"
+        android:layout_marginTop="8dp"
+        android:onClick="removeSentence"
+        android:text="Remove Sentences"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/buttonSearch" />
+
+</android.support.constraint.ConstraintLayout>
